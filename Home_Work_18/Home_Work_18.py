@@ -56,7 +56,7 @@ class Book:
     def __eq__(self, other):
         if isinstance(other, Book):
             return self.title == other.title and self.author == other.author
-        return False
+        return Falsფe
 
 
 book1 = Book('1984', 'George Orwell')
